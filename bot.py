@@ -21,7 +21,7 @@ logger = logging.getLogger(__name__)
 
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 ADMIN_ID  = int(os.getenv("ADMIN_ID", "0"))
-API_ID    = os.getenv("API_ID", "69b708d53d01cb2096d89700")
+API_ID    = os.getenv("API_ID", "69b70d0590779305e2bec630")
 
 if not BOT_TOKEN:
     raise RuntimeError("BOT_TOKEN o'rnatilmagan!")
